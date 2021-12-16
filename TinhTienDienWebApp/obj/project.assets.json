@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Ajax/0.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ajax.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ajax.dll": {}
+        }
+      },
+      "LumenWorks.Framework.IO/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/LumenWorks.Framework.IO.dll": {}
+        },
+        "runtime": {
+          "lib/net20/LumenWorks.Framework.IO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ajax/0.0.0": {
+      "sha512": "RMVHrN0E4OTecP72P2te+oB5uUoazs4K6QifJHj7I9fYCcuIOXk9pNTjh3TMnvQuRCyWSZrc5gJDFhQwHE3plg==",
+      "type": "package",
+      "path": "ajax/0.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ajax.0.0.0.nupkg.sha512",
+        "ajax.nuspec",
+        "lib/netstandard2.0/Ajax.dll"
+      ]
+    },
+    "LumenWorks.Framework.IO/3.8.0": {
+      "sha512": "Br2Q9j/tf2uF3Ci4CajidD18tui9DOg2iIzH5Xjro35ra6r8HGMD12B+ZlJ8v9AN3YXl7iPu5YDGbBlXVcZpHw==",
+      "type": "package",
+      "path": "lumenworks.framework.io/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/net20/LumenWorks.Framework.IO.dll",
+        "lib/net20/LumenWorks.Framework.IO.xml",
+        "lumenworks.framework.io.3.8.0.nupkg.sha512",
+        "lumenworks.framework.io.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Ajax >= 0.0.0",
+      "LumenWorks.Framework.IO >= 3.8.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/hieptran/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/hieptran/Projects/TinhTienDienWebApp/TinhTienDienWebApp/TinhTienDienWebApp.csproj",
+      "projectName": "TinhTienDienWebApp",
+      "projectPath": "/Users/hieptran/Projects/TinhTienDienWebApp/TinhTienDienWebApp/TinhTienDienWebApp.csproj",
+      "packagesPath": "/Users/hieptran/.nuget/packages/",
+      "outputPath": "/Users/hieptran/Projects/TinhTienDienWebApp/TinhTienDienWebApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/hieptran/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Ajax": {
+            "target": "Package",
+            "version": "[0.0.0, )"
+          },
+          "LumenWorks.Framework.IO": {
+            "target": "Package",
+            "version": "[3.8.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LumenWorks.Framework.IO 3.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LumenWorks.Framework.IO",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
